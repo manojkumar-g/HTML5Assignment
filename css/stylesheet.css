@@ -1,0 +1,125 @@
+.head{
+  border-bottom : 5px solid #000033;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  display: block;
+  position: relative;
+  border: 1px solid black;
+
+}
+
+header h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75px;
+  height: 100px;
+  margin: 0px 30px;
+}
+
+.wrapper{
+  background: green;
+}
+
+.navigator{
+  width: 1000px;
+  position: absolute;
+  bottom: 27px;
+  left : 600px;
+  display: inline;
+  line-height: 22px;
+  color: #444;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+.navigator li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.navigator li a {
+  text-decoration: none;
+}
+
+.navigator li a:hover{
+  color: green;
+  font-size: 15px;
+}
+.separator{
+  width: 100%
+  background: red;
+}
+.content{
+  height: 1000px;
+
+  line-height: 22px;
+  color: #444;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.grid_4{
+  background: skyblue ;
+  color: black;
+}
+
+.grid_4 img{
+  margin-left: 0;
+}
+
+.sep{
+  height: 50px;
+}
+
+.grid_12{
+  background: skyblue;
+}
+
+.footer{
+  background: #280000  ;
+
+  color : white;
+  position: relative;
+  top : 250px;
+  border-top : 10px solid #000033;
+  font-size: 20px;
+}
+.footer h2{
+  color: white;
+}
+.footer li a{
+  text-decoration: none;
+}
+
+.footer li a:hover{
+  color: green;
+  font-size: 22px;
+}
+
+.column{
+  background: none;
+}
+
+.sociallinks img{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.sociallinks a{
+  text-decoration: none;
+}
+
+.sociallinks a:hover{
+  color: green;
+  font-size: 22px;
+}
+
+.data{
+  position: relative;
+  bottom: 100px;
+}
